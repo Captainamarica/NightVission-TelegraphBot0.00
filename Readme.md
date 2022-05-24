@@ -32,35 +32,6 @@ python3 main.py
 
 Libraries used: => Pyrogram => Telegraph
 
-## Dev Details 👤:
-<p align="middle">
-<img src="https://telegra.ph/file/f856316b19a05bde4296d.jpg" width="150" height="150"><br>
-<img src="https://badgen.net/badge/Name/ZauteKm/FF33FF?icon=awesome&labelColor=0080FF"></a>
-<img src="https://badgen.net/badge/Skills/python/purple?icon=terminal&labelColor=red"></a>
-<a href="https://telegram.dog/Zautebot"><img src="https://img.shields.io/badge/Telegram-Link-blue.svg?logo=telegram"></a>
-<a href="https://github.com/ZauteKm"><img src="https://badgen.net/badge/Follow%20on%20/GitHub/80FF00?icon=github&labelColor=black"></a>
-<a href="https://youtube.com/c/ZauteKm"><img src="https://img.shields.io/badge/YouTube-Channel-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
-<p align="left">
-</p>
-
-
-## License
-```sh
-#!/usr/bin/env python3
-# Copyright (C) @ZauteKm
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-```
 ### Credits 
 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
