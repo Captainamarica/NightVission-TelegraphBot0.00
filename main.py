@@ -46,7 +46,7 @@ Bot = Client(
 
 START_TEXT = """**Hello {}
 
-I am small media or file to telegra.ph link uploader bot.**
+I am NightVission media or file to telegra.ph link uploader bot.**
 
 >> I can convert under 5MB photo or video to telegraph link.
 
@@ -61,21 +61,21 @@ HELP_TEXT = """**Hey, Follow these steps:**
 
 ABOUT_TEXT = """--**About Me**-- 😎
 
-🤖 **Name :** [TGraphRoBot](https://telegram.me/TGraphRoBot)
+🤖 **Name :** [Night Vission Telegrap Bot](http://t.me/NightVissionTelegraphBot)
 
-👨‍💻 **Developer :** [Zaute](https://t.me/zautekm)
+👨‍💻 **Developer :** [Navanjana](https://t.me/NA_VA_N_JA_NA1)
 
-📢 **Channel :** [Jos Projects](https://telegram.me/josprojects)
+📢 **Channel :** [Night Vission Bots](https://t.me/NightVission)
 
-👥 **Feedback :** [Tap here](https://telegram.me/jospsupportbot)
+👥 **Feedback :** [Tap here](https://t.me/NightVission)
 
-🌐 **Source :** [👉 Press me](https://github.com/ZauteKm/Image-Upload-Bot)
+🌐 **Source :** [👉 Press me](https://github.com/Captainamarica/NightVission-TelegraphBot0.00)
 
 📝 **Language :** [Python3](https://python.org)
 
 🧰 **Framework :** [Pyrogram](https://pyrogram.org)"""
 
-FORCE_SUBSCRIBE_TEXT = "<b>Sorry Dear You Must Join My Updates Channel for using me 😌😉....</b>"
+FORCE_SUBSCRIBE_TEXT = "<b>Sorry Dear You Must Join My Updates Channel for using me 😌....</b>"
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
@@ -226,7 +226,7 @@ async def telegraph_upload(bot, update):
         print(error)
         return
     await text.edit_text(
-        text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>\n\n<b>Thank You For Using Me:- \nPlease Subscribe ❤️ [@ZauteKm](https://t.me/iZaute/6)</b>",
+        text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>\n\n<b>Thank You For Using Me:- \nSend Massage ❤️ [@Navanjana](https://t.me/NA_VA_N_JA_NA1)</b>",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -298,7 +298,7 @@ async def status(bot, update):
 
 async def ForceSub(bot: Client, event: Message):
     """
-    Custom Pyrogram Based Telegram Bot's Force Subscribe Function by @ZauteKm.
+    Custom Pyrogram Based Telegram Bot's Force Subscribe Function by @NA_VA_N_JA_NA1.
     If User is not Joined Force Sub Channel Bot to Send a Message & ask him to Join First.
     
     :param bot: Pass Client.
@@ -313,14 +313,14 @@ async def ForceSub(bot: Client, event: Message):
         fix_ = await ForceSub(bot, event)
         return fix_
     except Exception as err:
-        print(f"Unable to do Force Subscribe to {Config.UPDATES_CHANNEL}\n\nError: {err}\n\nContact Support Group: https://t.me/JOSPSupport")
+        print(f"Unable to do Force Subscribe to {Config.UPDATES_CHANNEL}\n\nError: {err}\n\nContact Support Group: https://t.me/NightVission")
         return 200
     try:
         user = await bot.get_chat_member(chat_id=(int(UPDATES_CHANNEL) if UPDATES_CHANNEL.startswith("-100") else UPDATES_CHANNEL), user_id=event.from_user.id)
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=event.from_user.id,
-                text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Jospsupport).",
+                text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/NightVission).",
                 parse_mode="markdown",
                 disable_web_page_preview=True,
                 reply_to_message_id=event.message_id
@@ -348,7 +348,7 @@ async def ForceSub(bot: Client, event: Message):
         fix_ = await ForceSub(bot, event)
         return fix_
     except Exception as err:
-        print(f"Something Went Wrong! Unable to do Force Subscribe.\nError: {err}\n\nContact Support Group: https://t.me/JOSPSupport")
+        print(f"Something Went Wrong! Unable to do Force Subscribe.\nError: {err}\n\nContact Support Group: https://t.me/NightVission")
         return 200
 
 
