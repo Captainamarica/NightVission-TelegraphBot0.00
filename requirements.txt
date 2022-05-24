@@ -4,3 +4,5 @@ telegraph
 motor
 aiofiles
 dnspython
+name 
+Config
